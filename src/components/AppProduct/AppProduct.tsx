@@ -18,13 +18,13 @@ export const AppProduct = () => {
   return (
     <div>
       <Header />
-      <h2 className='text-center mt-3'>Formulario</h2>
+      <h3 className='text-center mt-3'>Formulario</h3>
       <ProductForm handleAddProduct={handleAddProduct} />
-      <h2 className='text-center'>Productos</h2>
+      <h3 className='text-center'>Productos</h3>
       {products.length > 0 ? (
         <ProductsList arrayItems={products} />
       ) : (
-        <h4 className='m-4 text-center'>No hay productos cargados</h4>
+        <h5 className='m-4 text-center'>No hay productos cargados</h5>
       )}
     </div>
   )
