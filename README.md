@@ -8,16 +8,16 @@ El objetivo de este proyecto es aprender y aplicar los fundamentos de React y Ty
 
 ## 📂 Descripción del Proyecto
 
-### Formulario Interactivo
+### - Formulario Interactivo
 Implementación de un formulario que permite a los usuarios agregar productos con nombre, imagen y precio.
 
-### Renderizado Dinámico
+### - Renderizado Dinámico
 Los productos agregados se muestran de manera dinámica en la interfaz.
 
-### Uso de TypeScript
+### - Uso de TypeScript
 Mejora la robustez del código mediante el uso de tipos y de componentes tipados.
 
-### Componentes Reutilizables
+### - Componentes Reutilizables
 Los componentes están diseñados para ser reutilizables y de fácil mantenimiento.
 
 ## ✅ Deploy
