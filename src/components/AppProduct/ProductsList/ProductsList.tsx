@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { Card } from 'react-bootstrap'
+
 interface ItemProduct {
   nombre: string
   imagen: string
@@ -13,7 +14,7 @@ interface IPropsProductsList {
 export const ProductsList: FC<IPropsProductsList> = ({ arrayItems }) => {
   return (
     <div
-      className='p-1 m-3 border rounded d-grid gap-2'
+      className='p-1 m-3 border rounded d-grid gap-2 responsive-grid'
       style={{
         gridTemplateColumns: 'repeat(2,1fr)',
         justifyItems: 'center',
@@ -21,7 +22,7 @@ export const ProductsList: FC<IPropsProductsList> = ({ arrayItems }) => {
       }}
     >
       {arrayItems.map((item, index) => (
-        <Card style={{ width: '18rem' }} key={index}>
+        <Card style={{ width: '18rem', margin: '1rem'  }} key={index}>
           <Card.Img variant='top' src={item.imagen} />
           <Card.Body>
             <Card.Title>{item.nombre}</Card.Title>
