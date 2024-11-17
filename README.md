@@ -20,9 +20,13 @@ Mejora la robustez del código mediante el uso de tipos y de componentes tipados
 ### - Componentes Reutilizables
 Los componentes están diseñados para ser reutilizables y de fácil mantenimiento.
 
-## ✅ Deploy
+## ✅ Funcionamiento
 
-LINK: [Formulario de Productos en GitHub Pages](https://valenisgroo.github.io/Nombre-del-Proyecto).
+1) Descargar / Clonar el proyecto
+2) Descomprimir el archivo .zip (OPCIONAL)
+3) Añadir dependecias
+4) Correr el programa con NPM RUN DEV
+5) Probar funcionamiento
 
 ---
 
